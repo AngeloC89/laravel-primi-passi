@@ -16,7 +16,7 @@
 </head>
 
 <body class="antialiased">
-    <h1 class="text-center font-bold p-4 bg-black text-white">Hello World!</h1>
+    <h1 class="text-center font-bold p-4 bg-black text-white">Hello {{ $user['name'] }} {{ $user['surname']}}!</h1>
     <!-- As a link -->
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand mx-2" href="contatti">Contattaci</a>

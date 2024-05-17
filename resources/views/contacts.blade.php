@@ -15,6 +15,9 @@
     </head>
     <body class="antialiased">
         <h1 class="text-center font-bold p-4 bg-black text-white ">Contattaci...</h1>
-        <a href="/" class="mx-2">Torna alla home</a>
+       
+        <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand mx-2" href="/">Torna alla home</a>
+    </nav>
     </body>
 </html>
